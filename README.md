@@ -1,6 +1,6 @@
 # PizzaEatery
 
-## This project aimed at providing tracking of pizza and managing the pizza delivery through mobile application.
+###### This project aimed at providing tracking of pizza and managing the pizza delivery through mobile application.
 
 Highlighting features:
 
