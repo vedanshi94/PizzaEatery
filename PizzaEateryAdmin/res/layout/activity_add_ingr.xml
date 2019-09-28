@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/students1"
+    android:onClick="AddDel"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Ingredient to Update/Remove "
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+    
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginTop="10dp" >
+
+         <Spinner
+             android:id="@+id/spinner1"
+             android:layout_width="wrap_content"
+             android:layout_height="53dp"
+             android:layout_weight="0.13"
+             android:background="@drawable/rw_bg"
+             android:divider="#8A2E00"
+             android:dividerHeight="3dp"
+             android:focusable="true" />
+
+     </LinearLayout>
+     
+     <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_button"
+            android:onClick="Rmv"
+            android:text="Update/Remove Ingredient"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_button"
+            android:onClick="AddIng"
+            android:text="Add Ingredient"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

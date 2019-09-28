@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\bin\PizzaEatery.dll
+C:\Users\User\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\bin\PizzaEatery.pdb
+C:\Users\User\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\obj\Debug\PizzaEatery.dll
+C:\Users\User\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\obj\Debug\PizzaEatery.pdb
+C:\Users\yaree\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\bin\PizzaEatery.dll
+C:\Users\yaree\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\bin\PizzaEatery.pdb
+C:\Users\yaree\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yaree\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\obj\Debug\PizzaEatery.dll
+C:\Users\yaree\Documents\Visual Studio 2008\Projects\PizzaEatery\PizzaEatery\obj\Debug\PizzaEatery.pdb

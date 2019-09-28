@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/students1" >
+
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Name"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+        <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:ems="10"
+        android:background="@drawable/edit_text"
+        android:textColor="#8A2E00">
+        </EditText>
+
+    </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:textColor="#8A2E00"
+            android:inputType="textPassword"  />
+
+    </LinearLayout>
+   
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" >
+         
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_button"
+            android:onClick="submit"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+     </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

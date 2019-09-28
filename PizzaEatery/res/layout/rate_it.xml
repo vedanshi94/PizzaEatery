@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/students1" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:background="#8A2E00">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:layout_marginTop="10dp" >
+
+         <RatingBar
+             android:id="@+id/ratingBar1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:stepSize="1" />
+
+     </LinearLayout>
+
+     <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="220dp"
+         android:layout_marginTop="5dp" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" >
+
+             <EditText
+                 android:id="@+id/editText1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:ems="10"
+                 android:hint="Comment here"
+                 android:inputType="textMultiLine"
+                 android:background="@drawable/edit_text"
+                 android:textColor="#8A2E00" 
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="5dp"   />
+
+         </LinearLayout>
+     </ScrollView>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp" >
+
+         <Button
+             android:id="@+id/button1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Submit"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_weight="1"
+             android:background="@drawable/border_button"
+             android:textColor="@android:color/white"
+             android:textStyle="bold" />
+
+     </LinearLayout>
+
+</LinearLayout>

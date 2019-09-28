@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PizzaEateryAdmin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_order_list">OrderList</string>
+    <string name="title_activity_assigned_order_list">AssignedOrderList</string>
+    <string name="title_activity_stnd_pizza_list">StndPizzaList</string>
+    <string name="title_activity_add_pizza">AddPizza</string>
+    <string name="title_activity_add_ingr">AddIngr</string>
+    <string name="title_activity_ingr_add">IngrAdd</string>
+    <string name="title_activity_remove_del">RemoveDel</string>
+    <string name="title_activity_add_del">AddDel</string>
+    <string name="title_activity_order_detail">OrderDetail</string>
+    <string name="title_activity_ba">Ba</string>
+    <string name="title_activity_base__update">Base_Update</string>
+    <string name="title_activity_cheese__update">Cheese_Update</string>
+    <string name="title_activity_veggies__update">Veggies_Update</string>
+    <string name="title_activity_toppping__update">Toppping_Update</string>
+    <string name="title_activity_sauce__update">Sauce_Update</string>
+    <string name="title_activity_topping__update">Topping_Update</string>
+    <string name="title_activity_login">PizzaEateryAdmin</string>
+    <string name="title_activity_password">Password</string>
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pizzaeateryadmin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pizzaeateryadmin.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.OrderList"
+            android:label="@string/title_activity_order_list" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.AssignedOrderList"
+            android:label="@string/title_activity_assigned_order_list" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.StndPizzaList"
+            android:label="@string/title_activity_stnd_pizza_list" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.AddPizza"
+            android:label="@string/title_activity_add_pizza" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.AddIngr"
+            android:label="@string/title_activity_add_ingr" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.IngrAdd"
+            android:label="@string/title_activity_ingr_add" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.RemoveDel"
+            android:label="@string/title_activity_remove_del" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.AddDel"
+            android:label="@string/title_activity_add_del" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.OrderDetail"
+            android:label="@string/title_activity_order_detail" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.Ba"
+            android:label="@string/title_activity_ba" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.Base_Update"
+            android:label="@string/title_activity_base__update" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.Cheese_Update"
+            android:label="@string/title_activity_cheese__update" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.Veggies_Update"
+            android:label="@string/title_activity_veggies__update" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.Toppping_Update"
+            android:label="@string/title_activity_toppping__update" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.Sauce_Update"
+            android:label="@string/title_activity_sauce__update" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.Topping_Update"
+            android:label="@string/title_activity_topping__update" >
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pizzaeateryadmin.PasswordActivity"
+            android:label="@string/title_activity_password" >
+        </activity>
+    </application>
+
+</manifest>

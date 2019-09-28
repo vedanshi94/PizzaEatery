@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DelAddr"
+    android:orientation="vertical"
+    android:background="@drawable/students1">
+    
+    <LinearLayout
+               
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" 
+                android:layout_marginLeft="5dp"
+  	  			android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Address: "
+                    android:layout_marginTop="5dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="65dp" >
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="House no. and Society"
+                    android:inputType="textMultiLine"
+                    android:background="@drawable/edit_text"
+        			android:textColor="#8A2E00"  >
+                </EditText>
+</ScrollView>         
+    </LinearLayout>
+    
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        tools:context=".MapsActivity" />
+    
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_button"
+	        android:onClick="ConfirmAddr"
+	        android:text="Confirm Address"
+	        android:textColor="@android:color/white"
+	        android:textStyle="bold" />
+
+    </LinearLayout>
+    
+</LinearLayout>

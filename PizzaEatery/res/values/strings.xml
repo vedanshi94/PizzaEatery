@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PizzaEatery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_details">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_pin_no">Password</string>
+    <string name="title_activity_navigation">PizzaEatery</string>
+    <string name="drawer_open">opens drawer</string>
+    <string name="drawer_close">closes drawer</string>
+    <string name="title_activity_del_addr">Delivery Address</string>
+    <string name="title_activity_near_outlet">Nearest Outlets</string>
+    <string name="title_activity_track">Track</string>
+
+</resources>
